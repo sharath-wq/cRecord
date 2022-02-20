@@ -6,7 +6,7 @@ int main()
     printf("Enter the number : ");
     scanf("%d", &n);
     char str[20];
-    sprintf(str, "%d", n);
+    printf(str, "%d", n);
     int len = strlen(str);
     for (int i = 0; i < len; i++)
     {
